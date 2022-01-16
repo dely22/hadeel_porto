@@ -59,7 +59,7 @@ const validateInputs = () => {
   const emailValue = email.value.trim();
   const subjectval = subject.value.trim();
   const textarvalue = textar.value.trim();
-
+  
   // name val
   if (usernameValue === "") {
     setError(username, "Username is required");
@@ -89,12 +89,14 @@ const validateInputs = () => {
     setError(email, "Provide a valid email address");
   } else {
     setSuccess(email);
+    alert("cool");
   }
   // textarea
   if (textarvalue.length < 20) {
     setError(textar, "textarea must be at least 20 char");
   } else {
     setSuccess(textar);
+   
   }
 };
 
