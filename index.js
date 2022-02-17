@@ -12,3 +12,4 @@ console.log("server work");
 app.get("/", (req, res) => {
     res.render("home");
 })
+app.listen(process.env.PORT || 5000);
