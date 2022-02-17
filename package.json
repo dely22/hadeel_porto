@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "rebuild my poryo in node js using ejs",
   "main": "index.js",
-  "engines": {
-    "node":"16.x",
-    "npm":"7.x"
-    },
+  // "engines": {
+  //   "node":"16.x",
+  //   "npm":"7.x"
+  //   },
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
